@@ -1,0 +1,87 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Style by Class Selector */
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-v-center {
+  text-align: center;
+}
+
+#myWork p {
+  margin: 5% 0%;
+}
+
+#linked-in {
+  width: 100px;
+  position: absolute;
+  right: -5px;
+  bottom: 10px;
+}
+
+#github {
+  width: 70px;
+  position: absolute;
+  left: -25px;
+  bottom: -10px;
+}
+
+/* Styles By HTML Selector */
+body {
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+body h1 {
+  color: white;
+  margin: 10px 0px;
+  font-size: 1.8rem;
+  text-align: center;
+  background: #2196f3;
+}
+body h2 {
+  font-size: 1.5rem;
+  color: black;
+  margin: 30px 0;
+  text-align: center;
+}
+body header {
+  padding: 25px;
+}
+body header hero {
+  position: relative;
+}
+body header img {
+  max-width: 80%;
+  margin: 10px 0px;
+  border-radius: 20%;
+}
+body main {
+  width: 80vw;
+}
+body main ol {
+  list-style: square;
+}
+body main ol li {
+  font-weight: 700;
+  margin-top: 16px;
+}
+body main p {
+  color: #333333;
+  font-size: 1.2rem;
+}
+body footer {
+  text-align: center;
+  padding: 2% 0%;
+  background: black;
+  width: 100vw;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
